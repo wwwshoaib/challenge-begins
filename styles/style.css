@@ -1,1 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* google font:azeret mono */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+/* header section */
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.header-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.download-button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#banner {
+    width: 1336px;
+    height: 652px;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    position: absolute;
+    width: 998px;
+    height: 581px;
+    margin: 26px 20px 45px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+}
+
+#banner .banner-coder {
+    text-align: center;
+}
+
+#banner .banner-title {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+
+#banner .banner-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#banner .banner-button {
+
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
