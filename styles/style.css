@@ -107,7 +107,7 @@
 #why-web {
     position: relative;
     width: 1349px;
-    height: 1500px;
+    height: 1100px;
     background: rgb(255, 255, 255);
 }
 
@@ -216,4 +216,66 @@
     align-items: center;
     gap: 10;
     padding: 12px 20px 12px 20px;
+}  
+
+/* My inspiration section */
+
+#my-inspiration {
+    position: relative;
+    width: 1349px;
+    height: 1500px;
+    background: rgb(255, 255, 255);
+}  
+
+.my-inspiration {
+    width: 1140px;
+    height: 1393px;
+    margin: 80px 90px 80px 90px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    
+}  
+
+.my-inspiration-title-section {
+    width: 852px;
+    height: 150px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+
+
+.my-inspiration-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-inspiration-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    justify-content: center;
+    
+} 
+
+.my-inspiration-video {
+    width: 852px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 20px;
+
+}
+
